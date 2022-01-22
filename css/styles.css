@@ -150,3 +150,49 @@ h2 {
     font-size: 24px;
     font-weight: 600;
 }
+
+.fourth {
+    padding-inline: 13rem;
+}
+
+.ctr {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    gap: 2rem;
+    padding: 3rem 5rem 3rem 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+}
+
+.ctrq {
+    margin: 0;
+}
+
+.ctr-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+
+.ctr-button {
+    padding-inline: 2rem;
+    padding-block: 7px;
+    outline: none;
+    border-radius: 7px;
+    font-weight: 500;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+}
+
+.ctr-button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #3882f6;
+}
