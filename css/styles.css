@@ -197,4 +197,14 @@ h2 {
     color: #3882f6;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding-inline: 14rem;
+    padding-block: 2rem;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
 /*    misclicj    */  
